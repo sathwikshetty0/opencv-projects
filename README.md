@@ -30,6 +30,9 @@ pip install opencv-python opencv-contrib-python mediapipe numpy pyautogui ultral
 | `29_virtual_calculator.py` | Gesture-operated calculator |
 | `40_gesture_slide_controller.py` | Navigate presentation slides with gestures |
 | `45_hand_zoom_brightness_control.py` | Control zoom and brightness with hand gestures |
+| `46_hand_color_filter.py` | Change camera filters using hand fingers |
+| `47_hand_camera_lens.py` | Palm lens effect on live webcam feed |
+| `48_hand_click_pointer.py` | Control pointer and click with hand gestures |
 | `rock.py` | Hand-gesture rock-paper-scissors game |
 | `Virtual-Keyboard-with-Hand-Gesture-Control.py` | Full virtual keyboard via hand tracking |
 
