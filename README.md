@@ -29,6 +29,7 @@ pip install opencv-python opencv-contrib-python mediapipe numpy pyautogui ultral
 | `20_finger_counter.py` | Real-time finger counting display |
 | `29_virtual_calculator.py` | Gesture-operated calculator |
 | `40_gesture_slide_controller.py` | Navigate presentation slides with gestures |
+| `45_hand_zoom_brightness_control.py` | Control zoom and brightness with hand gestures |
 | `rock.py` | Hand-gesture rock-paper-scissors game |
 | `Virtual-Keyboard-with-Hand-Gesture-Control.py` | Full virtual keyboard via hand tracking |
 
