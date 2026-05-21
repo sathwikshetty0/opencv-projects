@@ -105,3 +105,47 @@ pip install opencv-python opencv-contrib-python mediapipe numpy pyautogui ultral
 ## 📜 License
 
 This project is for educational purposes. Feel free to use and modify.
+
+### 🧩 Additional Computer Vision Demos
+| File | Description |
+|------|-------------|
+| `49_hand_scroll_control.py` | Scroll through a virtual panel with hand tilt |
+| `50_hand_pause_player.py` | Play/pause media with a palm gesture |
+| `51_hand_brightness_slider.py` | Adjust screen brightness by finger height |
+| `52_hand_zoom_filter.py` | Zoom and apply a filter using pinch distance |
+| `53_hand_silhouette_overlay.py` | Draw a hand silhouette overlay in real time |
+| `54_hand_shadow_effect.py` | Render a dynamic shadow from the hand outline |
+| `55_hand_sparkle_trail.py` | Leave a sparkling trail behind the index finger |
+| `56_hand_ar_shield.py` | Show an AR shield when both palms are visible |
+| `57_hand_emoji_reactions.py` | Display emoji reactions from hand pose |
+| `58_hand_warp_window.py` | Warp a circular window around your hand |
+| `59_face_mask_sticker.py` | Place a virtual mask overlay on detected faces |
+| `60_face_beard_filter.py` | Add a beard filter using face landmarks |
+| `61_face_mirror_glass.py` | Mirror the face into stylized sunglasses |
+| `62_face_blend_filter.py` | Blend two face filters along the nose line |
+| `63_face_landmark_graph.py` | Plot face landmark positions as a live graph |
+| `64_face_pose_align.py` | Show face pose axes and alignment guides |
+| `65_face_color_pop.py` | Pop one facial color while desaturating the rest |
+| `66_face_symmetry_view.py` | Visualize facial symmetry with a split view |
+| `67_face_smile_meter.py` | Measure smile intensity from mouth landmarks |
+| `68_face_glow_highlight.py` | Highlight cheek and forehead with glow effect |
+| `69_pose_squat_counter.py` | Count squats using pose landmarks |
+| `70_pose_yoga_assistant.py` | Assist yoga poses with angle feedback |
+| `71_pose_gesture_fit.py` | Recognize simple pose gestures for fitness |
+| `72_pose_posture_alert.py` | Alert on poor sitting posture |
+| `73_pose_jump_counter.py` | Count vertical jumps with body pose tracking |
+| `74_pose_balance_meter.py` | Display balance score from hip/shoulder alignment |
+| `75_pose_reach_tracker.py` | Track arm reach distance in real time |
+| `76_pose_sitstand_counter.py` | Count sit-to-stand transitions with pose data |
+| `77_pose_dance_visualizer.py` | Render a dance skeleton overlay on motion |
+| `78_pose_angle_helper.py` | Draw joint angle helpers for body pose |
+| `79_motion_trail.py` | Generate a motion trail behind moving objects |
+| `80_motion_direction_overlay.py` | Show motion direction arrows for moving contours |
+| `81_motion_magnifier.py` | Magnify motion areas for emphasis |
+| `82_motion_frame_blend.py` | Blend recent frames to create motion trails |
+| `83_motion_heat_tracker.py` | Track motion hotspots with a heatmap overlay |
+| `84_motion_object_mask.py` | Mask moving objects and keep background intact |
+| `85_motion_focus_crop.py` | Automatically crop to the most active motion region |
+| `86_motion_strobe.py` | Create a strobe-style motion effect |
+| `87_motion_blur_effect.py` | Apply directional blur to moving regions |
+| `88_motion_color_wave.py` | Render a colored motion wave behind moving objects |
