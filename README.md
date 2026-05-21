@@ -1,151 +1,198 @@
-# 🎯 OpenCV & Computer Vision Projects Collection
+# 🚀 OpenCV & MediaPipe Computer Vision Demo Collection
 
-A comprehensive collection of **50+ interactive computer vision projects** built with OpenCV, MediaPipe, and Python. Each project is self-contained and runs directly from webcam input.
+A complete interactive repository of **80+ computer vision demos** built with Python, OpenCV, MediaPipe, and related tools.
 
-## 🚀 Quick Start
+These projects are designed for learning, experimentation, and rapid prototyping. Every script is self-contained and runs directly with webcam input or video capture.
 
-```bash
-# Clone and setup
-git clone <repo-url>
-cd PythonProject
+---
 
-# Create virtual environment
+## 📌 What’s Included
+
+- Hand tracking and gesture control demos
+- Face landmark and AR filter experiences
+- Image processing, filtering, and style effects
+- Object tracking, object detection, and motion analytics
+- Real-world safety and utility applications
+- 40+ additional demos for pose, motion, and live visual effects
+
+---
+
+## ✅ Highlights
+
+- **Full webcam-based demos** with minimal setup
+- **MediaPipe hand, face, pose, and segmentation** integrations
+- **Real-time control** through gestures and visual cues
+- **Educational examples** for vision-based UI, AR, and analytics
+
+---
+
+## 🧰 Requirements
+
+- Python 3.8+
+- Webcam or video input device
+- Installed packages:
+  - `opencv-python`
+  - `opencv-contrib-python`
+  - `mediapipe`
+  - `numpy`
+  - `pyautogui`
+  - `matplotlib`
+  - `scipy`
+  - `pillow`
+  - `ultralytics` (for YOLO projects)
+
+> If you want to keep installs lightweight, only install the packages needed for the demo you run.
+
+---
+
+## ⚙ Setup
+
+```powershell
+cd C:\projects\PythonProject
 python -m venv .venv
-.venv\Scripts\activate  # Windows
-
-# Install dependencies
-pip install opencv-python opencv-contrib-python mediapipe numpy pyautogui ultralytics matplotlib scipy pillow
+.venv\Scripts\activate
+pip install opencv-python opencv-contrib-python mediapipe numpy pyautogui matplotlib scipy pillow ultralytics
 ```
 
-## 📂 Project Categories
+---
+
+## ▶️ Running a Demo
+
+Use Python to run any script by name.
+
+Example:
+
+```powershell
+python 05_virtual_paint.py
+```
+
+If a script uses MediaPipe or camera input, allow the webcam access and close it with `q`.
+
+---
+
+## 🗂️ Project Categories
 
 ### 🤚 Hand Tracking & Gestures
-| File | Description |
-|------|-------------|
-| `01_pose_detector_game.py` | Pop falling circles using body pose tracking |
-| `02_hand_volume_control.py` | Control system volume with thumb-index distance |
-| `05_virtual_paint.py` | Air-draw on a digital canvas with hand tracking |
-| `19_air_mouse_controller.py` | Control mouse cursor with hand gestures |
-| `20_finger_counter.py` | Real-time finger counting display |
-| `29_virtual_calculator.py` | Gesture-operated calculator |
-| `40_gesture_slide_controller.py` | Navigate presentation slides with gestures |
-| `45_hand_zoom_brightness_control.py` | Control zoom and brightness with hand gestures |
-| `46_hand_color_filter.py` | Change camera filters using hand fingers |
-| `47_hand_camera_lens.py` | Palm lens effect on live webcam feed |
-| `48_hand_click_pointer.py` | Control pointer and click with hand gestures |
-| `rock.py` | Hand-gesture rock-paper-scissors game |
-| `Virtual-Keyboard-with-Hand-Gesture-Control.py` | Full virtual keyboard via hand tracking |
+- `01_pose_detector_game.py` — body pose game with falling targets
+- `02_hand_volume_control.py` — volume control using thumb-index distance
+- `05_virtual_paint.py` — air drawing on a digital canvas
+- `19_air_mouse_controller.py` — mouse cursor control via hand gestures
+- `20_finger_counter.py` — count raised fingers in real time
+- `29_virtual_calculator.py` — gesture-operated calculator interface
+- `40_gesture_slide_controller.py` — slide navigation using hand gestures
+- `45_hand_zoom_brightness_control.py` — pinch zoom and brightness control
+- `46_hand_color_filter.py` — switch camera filters with fingers
+- `47_hand_camera_lens.py` — live palm lens effect overlay
+- `48_hand_click_pointer.py` — pointer and click control by hand
+- `49_hand_scroll_control.py` — scroll panel with hand tilt
+- `50_hand_pause_player.py` — pause/play with palm gestures
+- `51_hand_brightness_slider.py` — brightness slider via finger height
+- `52_hand_zoom_filter.py` — pinch zoom plus camera filtering
+- `53_hand_silhouette_overlay.py` — silhouette overlay from hand pose
+- `54_hand_shadow_effect.py` — dynamic hand shadow rendering
+- `55_hand_sparkle_trail.py` — sparkle trail behind the index finger
+- `56_hand_ar_shield.py` — AR shield effect for the palm
+- `57_hand_emoji_reactions.py` — emoji reactions from hand pose
+- `58_hand_warp_window.py` — warp window around the hand
+- `rock.py` — rock-paper-scissors gesture game
+- `Virtual-Keyboard-with-Hand-Gesture-Control.py` — virtual keyboard control
 
 ### 👤 Face & Facial Features
-| File | Description |
-|------|-------------|
-| `06_face_mesh_landmarks.py` | Visualize 468 face mesh landmarks |
-| `09_drowsiness_detector.py` | Eye-aspect-ratio drowsiness alert system |
-| `11_virtual_try_on_sunglasses.py` | AR sunglasses overlay on detected faces |
-| `16_delaunay_triangulation.py` | Low-poly face effect via triangulation |
-| `22_face_emotion_classifier.py` | Classify facial expressions in real-time |
-| `32_automatic_brightness_controller.py` | Auto-adjust display brightness from face lighting |
-| `33_face_blurring_privacy.py` | Privacy-preserving automatic face blur |
-| `face detection.py` | Basic Haar cascade face detection |
-| `Mouse Control using Eye Tracking.py` | Control mouse with eye gaze |
+- `06_face_mesh_landmarks.py` — face mesh landmark visualization
+- `09_drowsiness_detector.py` — eye blink and sleepiness alert
+- `11_virtual_try_on_sunglasses.py` — AR sunglasses overlay
+- `16_delaunay_triangulation.py` — low-poly face stylization
+- `22_face_emotion_classifier.py` — real-time expression detection
+- `32_automatic_brightness_controller.py` — auto brightness from face lighting
+- `33_face_blurring_privacy.py` — live face privacy blur
+- `59_face_mask_sticker.py` — virtual mask overlay
+- `60_face_beard_filter.py` — beard filter with face landmarks
+- `61_face_mirror_glass.py` — mirrored sunglasses effect
+- `62_face_blend_filter.py` — blended face filter effect
+- `63_face_landmark_graph.py` — live landmark graph visualization
+- `64_face_pose_align.py` — pose axes and alignment guides
+- `65_face_color_pop.py` — single-color pop on the face
+- `66_face_symmetry_view.py` — symmetry split view
+- `67_face_smile_meter.py` — smile intensity meter
+- `68_face_glow_highlight.py` — glow highlight on facial areas
+- `face detection.py` — classic Haar-based face detection
+- `Mouse Control using Eye Tracking.py` — gaze-based mouse control
 
 ### 🖼️ Image Processing & Filters
-| File | Description |
-|------|-------------|
-| `03_document_scanner.py` | Perspective-warp document scanner |
-| `10_color_pop_filter.py` | Isolate one color, desaturate the rest |
-| `15_pencil_sketch_generator.py` | Real-time pencil sketch effect |
-| `17_image_stitching_panorama.py` | Multi-image panorama stitching |
-| `18_watermark_overlay.py` | Transparent watermark overlay tool |
-| `24_image_histogram_equalizer.py` | Live histogram equalization with visualization |
-| `26_color_picker_dropper.py` | Interactive color picker/eyedropper |
-| `27_shape_detector.py` | Contour-based shape classification |
-| `31_image_morphology_explorer.py` | Erosion, dilation, opening, closing explorer |
-| `36_panoramic_motion_scanner.py` | Slit-scan panoramic capture |
-| `edge_detection.py` | Real-time Canny edge detection |
+- `03_document_scanner.py` — perspective document scanning
+- `10_color_pop_filter.py` — single-color pop filter
+- `15_pencil_sketch_generator.py` — pencil sketch effect
+- `17_image_stitching_panorama.py` — panorama stitching demo
+- `18_watermark_overlay.py` — watermark overlay on video frames
+- `24_image_histogram_equalizer.py` — live histogram equalization
+- `26_color_picker_dropper.py` — color picker/eyedropper tool
+- `27_shape_detector.py` — contour-based shape classification
+- `31_image_morphology_explorer.py` — erosion/dilation explorer
+- `36_panoramic_motion_scanner.py` — slit-scan motion capture
+- `edge_detection.py` — real-time Canny edge detection
 
 ### 🎯 Object Tracking & Detection
-| File | Description |
-|------|-------------|
-| `04_qr_barcode_scanner.py` | Real-time QR code detection and decode |
-| `07_optical_flow_tracker.py` | Lucas-Kanade optical flow on clicked points |
-| `13_object_size_measurer.py` | Measure real-world object dimensions |
-| `25_object_speed_estimator.py` | Estimate moving object velocity |
-| `35_ball_physics_simulation.py` | Bouncing ball physics with OpenCV rendering |
-| `37_object_tracker_mil_kcf.py` | ROI-based object tracking benchmark |
-| `blue color tracker.py` | HSV-based blue color tracking |
-| `YOLO Real-Time Webcam Detection.py` | YOLOv8 real-time object detection |
-| `Object Counter using YOLO.py` | Count objects with YOLO |
+- `04_qr_barcode_scanner.py` — real-time QR and barcode detection
+- `07_optical_flow_tracker.py` — Lucas-Kanade optical flow tracker
+- `13_object_size_measurer.py` — real-world object measurement
+- `25_object_speed_estimator.py` — object velocity estimation
+- `35_ball_physics_simulation.py` — physics and motion rendering
+- `37_object_tracker_mil_kcf.py` — ROI tracking benchmark
+- `blue color tracker.py` — HSV-based blue object tracking
+- `YOLO Real-Time Webcam Detection.py` — YOLOv8 object detection
+- `Object Counter using YOLO.py` — counting objects with YOLOv8
 
 ### 🛡️ Real-World Applications & Safety
-| File | Description |
-|------|-------------|
-| `08_background_remover.py` | MediaPipe background replacement |
-| `12_lane_line_detector.py` | Hough-transform lane detection |
-| `14_motion_security_alarm.py` | Motion-triggered security alarm with logging |
-| `21_social_distancing_detector.py` | Person distance violation detector |
-| `23_blur_detector_autofocus.py` | Laplacian variance blur detection |
-| `28_camera_shake_stabilizer.py` | Video stabilization via feature matching |
-| `30_pedestrian_detector.py` | HOG-based pedestrian detection |
-| `34_sudoku_grid_extractor.py` | Sudoku grid detection and cell extraction |
-| `38_road_pothole_detection_simulation.py` | Pothole detection via contour analysis |
-| `39_fire_detection_color_analysis.py` | Fire/flame color-space detection |
-| `Harry Potter Invisible Cloak.py` | Invisibility cloak effect |
-| `Live Blur Background.py` | Real-time background blur |
-| `motion detection.py` | Basic motion detection |
+- `08_background_remover.py` — background replacement demo
+- `12_lane_line_detector.py` — lane boundary detection
+- `14_motion_security_alarm.py` — motion-triggered alarm system
+- `21_social_distancing_detector.py` — distance violation detection
+- `23_blur_detector_autofocus.py` — blur and autofocus checker
+- `28_camera_shake_stabilizer.py` — stabilization from video frames
+- `30_pedestrian_detector.py` — HOG pedestrian detection
+- `34_sudoku_grid_extractor.py` — sudoku board detection and extraction
+- `38_road_pothole_detection_simulation.py` — pothole detection demo
+- `39_fire_detection_color_analysis.py` — flame/color fire detection
+- `Harry Potter Invisible Cloak.py` — invisibility cloak effect
+- `Live Blur Background.py` — webcam background blur
+- `motion detection.py` — basic motion detection utility
 
-## 🛠️ Tech Stack
+### 🌊 Motion & Visual Effects
+- `79_motion_trail.py` — motion trail rendering
+- `80_motion_direction_overlay.py` — motion direction arrows
+- `81_motion_magnifier.py` — motion region magnifier
+- `82_motion_frame_blend.py` — motion frame blending
+- `83_motion_heat_tracker.py` — motion heatmap overlay
+- `84_motion_object_mask.py` — moving object masking
+- `85_motion_focus_crop.py` — focused motion cropping
+- `86_motion_strobe.py` — strobe motion effect
+- `87_motion_blur_effect.py` — directional motion blur
+- `88_motion_color_wave.py` — color wave motion overlay
 
-- **[OpenCV](https://opencv.org/)** — Image processing, video capture, drawing
-- **[MediaPipe](https://mediapipe.dev/)** — Pose, Hands, Face Mesh, Segmentation
-- **[PyAutoGUI](https://pyautogui.readthedocs.io/)** — System mouse/keyboard control
-- **[Ultralytics YOLOv8](https://ultralytics.com/)** — Object detection
-- **[NumPy](https://numpy.org/)** — Array operations
+---
+
+## 💡 Tips
+
+- Start with the smaller demos like `20_finger_counter.py` or `05_virtual_paint.py`.
+- Use `q` to quit each running demo window.
+- If you encounter camera issues, verify the webcam is not in use and the correct index is selected.
+- Install packages inside `.venv` to avoid system-wide conflicts.
+
+---
+
+## 🛠 Contribution
+
+This repository is a great base for extending computer vision demos.
+
+To add a new demo:
+
+1. Create a new Python script in the root folder.
+2. Keep each demo self-contained and simple.
+3. Document it in this README.
+
+---
 
 ## 📜 License
 
-This project is for educational purposes. Feel free to use and modify.
+This repository is intended for learning and experimentation. Feel free to reuse and modify the code for education and prototyping.
 
-### 🧩 Additional Computer Vision Demos
-| File | Description |
-|------|-------------|
-| `49_hand_scroll_control.py` | Scroll through a virtual panel with hand tilt |
-| `50_hand_pause_player.py` | Play/pause media with a palm gesture |
-| `51_hand_brightness_slider.py` | Adjust screen brightness by finger height |
-| `52_hand_zoom_filter.py` | Zoom and apply a filter using pinch distance |
-| `53_hand_silhouette_overlay.py` | Draw a hand silhouette overlay in real time |
-| `54_hand_shadow_effect.py` | Render a dynamic shadow from the hand outline |
-| `55_hand_sparkle_trail.py` | Leave a sparkling trail behind the index finger |
-| `56_hand_ar_shield.py` | Show an AR shield when both palms are visible |
-| `57_hand_emoji_reactions.py` | Display emoji reactions from hand pose |
-| `58_hand_warp_window.py` | Warp a circular window around your hand |
-| `59_face_mask_sticker.py` | Place a virtual mask overlay on detected faces |
-| `60_face_beard_filter.py` | Add a beard filter using face landmarks |
-| `61_face_mirror_glass.py` | Mirror the face into stylized sunglasses |
-| `62_face_blend_filter.py` | Blend two face filters along the nose line |
-| `63_face_landmark_graph.py` | Plot face landmark positions as a live graph |
-| `64_face_pose_align.py` | Show face pose axes and alignment guides |
-| `65_face_color_pop.py` | Pop one facial color while desaturating the rest |
-| `66_face_symmetry_view.py` | Visualize facial symmetry with a split view |
-| `67_face_smile_meter.py` | Measure smile intensity from mouth landmarks |
-| `68_face_glow_highlight.py` | Highlight cheek and forehead with glow effect |
-| `69_pose_squat_counter.py` | Count squats using pose landmarks |
-| `70_pose_yoga_assistant.py` | Assist yoga poses with angle feedback |
-| `71_pose_gesture_fit.py` | Recognize simple pose gestures for fitness |
-| `72_pose_posture_alert.py` | Alert on poor sitting posture |
-| `73_pose_jump_counter.py` | Count vertical jumps with body pose tracking |
-| `74_pose_balance_meter.py` | Display balance score from hip/shoulder alignment |
-| `75_pose_reach_tracker.py` | Track arm reach distance in real time |
-| `76_pose_sitstand_counter.py` | Count sit-to-stand transitions with pose data |
-| `77_pose_dance_visualizer.py` | Render a dance skeleton overlay on motion |
-| `78_pose_angle_helper.py` | Draw joint angle helpers for body pose |
-| `79_motion_trail.py` | Generate a motion trail behind moving objects |
-| `80_motion_direction_overlay.py` | Show motion direction arrows for moving contours |
-| `81_motion_magnifier.py` | Magnify motion areas for emphasis |
-| `82_motion_frame_blend.py` | Blend recent frames to create motion trails |
-| `83_motion_heat_tracker.py` | Track motion hotspots with a heatmap overlay |
-| `84_motion_object_mask.py` | Mask moving objects and keep background intact |
-| `85_motion_focus_crop.py` | Automatically crop to the most active motion region |
-| `86_motion_strobe.py` | Create a strobe-style motion effect |
-| `87_motion_blur_effect.py` | Apply directional blur to moving regions |
-| `88_motion_color_wave.py` | Render a colored motion wave behind moving objects |
