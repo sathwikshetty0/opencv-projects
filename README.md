@@ -279,14 +279,14 @@ Each demo below includes a rich multi-line description that explains the core in
   - Useful for learning how to combine detection, filtering, and interaction.
   - Runs standalone with minimal setup and demonstrates core CV concepts.
 
-- `eye controlled mouse.py`
+- `eye_controlled_mouse.py`
   - A demo script focused on eye using webcam-based computer vision.
   - Uses OpenCV and MediaPipe techniques to process live video frames.
   - Displays an interactive visual effect or tracking output on screen.
   - Useful for learning how to combine detection, filtering, and interaction.
   - Runs standalone with minimal setup and demonstrates core CV concepts.
 
-- `Mouse Control using Eye Tracking.py`
+- `mouse_control_using_eye_tracking.py`
   - A demo script focused on mouse using webcam-based computer vision.
   - Uses OpenCV and MediaPipe techniques to process live video frames.
   - Displays an interactive visual effect or tracking output on screen.
@@ -414,7 +414,7 @@ Each demo below includes a rich multi-line description that explains the core in
   - Useful for learning how to combine detection, filtering, and interaction.
   - Runs standalone with minimal setup and demonstrates core CV concepts.
 
-- `face detection.py`
+- `face_detection.py`
   - A demo script focused on face using webcam-based computer vision.
   - Uses OpenCV and MediaPipe techniques to process live video frames.
   - Displays an interactive visual effect or tracking output on screen.
@@ -493,14 +493,14 @@ Each demo below includes a rich multi-line description that explains the core in
   - Useful for learning how to combine detection, filtering, and interaction.
   - Runs standalone with minimal setup and demonstrates core CV concepts.
 
-- `Harry Potter Invisible Cloak.py`
+- `harry_potter_invisible_cloak.py`
   - A demo script focused on harry using webcam-based computer vision.
   - Uses OpenCV and MediaPipe techniques to process live video frames.
   - Displays an interactive visual effect or tracking output on screen.
   - Useful for learning how to combine detection, filtering, and interaction.
   - Runs standalone with minimal setup and demonstrates core CV concepts.
 
-- `Live Blur Background.py`
+- `live_blur_background.py`
   - A demo script focused on live using webcam-based computer vision.
   - Uses OpenCV and MediaPipe techniques to process live video frames.
   - Displays an interactive visual effect or tracking output on screen.
@@ -572,21 +572,21 @@ Each demo below includes a rich multi-line description that explains the core in
   - Useful for learning how to combine detection, filtering, and interaction.
   - Runs standalone with minimal setup and demonstrates core CV concepts.
 
-- `blue color tracker.py`
+- `blue_color_tracker.py`
   - A demo script focused on blue using webcam-based computer vision.
   - Uses OpenCV and MediaPipe techniques to process live video frames.
   - Displays an interactive visual effect or tracking output on screen.
   - Useful for learning how to combine detection, filtering, and interaction.
   - Runs standalone with minimal setup and demonstrates core CV concepts.
 
-- `Object Counter using YOLO.py`
+- `object_counter_using_yolo.py`
   - A demo script focused on object using webcam-based computer vision.
   - Uses OpenCV and MediaPipe techniques to process live video frames.
   - Displays an interactive visual effect or tracking output on screen.
   - Useful for learning how to combine detection, filtering, and interaction.
   - Runs standalone with minimal setup and demonstrates core CV concepts.
 
-- `YOLO Real-Time Webcam Detection.py`
+- `yolo_real_time_webcam_detection.py`
   - A demo script focused on yolo using webcam-based computer vision.
   - Uses OpenCV and MediaPipe techniques to process live video frames.
   - Displays an interactive visual effect or tracking output on screen.
@@ -658,7 +658,7 @@ Each demo below includes a rich multi-line description that explains the core in
   - Useful for learning how to combine detection, filtering, and interaction.
   - Runs standalone with minimal setup and demonstrates core CV concepts.
 
-- `motion detection.py`
+- `motion_detection.py`
   - A demo script focused on motion using webcam-based computer vision.
   - Uses OpenCV and MediaPipe techniques to process live video frames.
   - Displays an interactive visual effect or tracking output on screen.
