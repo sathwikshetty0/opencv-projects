@@ -1,0 +1,10 @@
+opencv-python
+opencv-contrib-python
+mediapipe
+numpy
+cvzone
+pyautogui
+pynput
+requests
+scipy
+ultralytics
