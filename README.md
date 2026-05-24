@@ -427,6 +427,11 @@ Each demo below includes a rich multi-line description that explains the core in
   - Useful for learning how to combine detection, filtering, and interaction.
   - Runs standalone with minimal setup and demonstrates core CV concepts.
 
+- `90_face_eyebrow_tracker.py`
+  - Tracks eyebrow coordinates and calculates real-time distance relative to eyes.
+  - Uses MediaPipe Face Mesh for fine landmark identification.
+  - Supports measuring dynamic brow elevation to recognize expressions.
+
 ### 🖼️ Image Processing, Filters & Visual Effects
 
 - `03_document_scanner.py`
