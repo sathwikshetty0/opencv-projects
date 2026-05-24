@@ -518,6 +518,11 @@ Each demo below includes a rich multi-line description that explains the core in
   - Useful for learning how to combine detection, filtering, and interaction.
   - Runs standalone with minimal setup and demonstrates core CV concepts.
 
+- `93_color_segmented_drawing.py`
+  - Paint on screen using specific colors (HSV ranges) tracked through a webcam.
+  - Includes image filtering pipelines (erosion/dilation) to isolate target colors.
+  - Offers a canvas reset action to start drawing fresh shapes live.
+
 ### 🎯 Object Tracking, Detection & Measurement
 
 - `04_qr_barcode_scanner.py`
