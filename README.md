@@ -307,6 +307,12 @@ Each demo below includes a rich multi-line description that explains the core in
   - Useful for learning how to combine detection, filtering, and interaction.
   - Runs standalone with minimal setup and demonstrates core CV concepts.
 
+- `89_hand_virtual_eraser.py`
+  - Erase virtual shapes drawn on the screen using hand gestures.
+  - Uses MediaPipe hand tracking to locate user's fingertips.
+  - Features real-time layer mask blending for realistic erasing behavior.
+  - Perfect for understanding drawing logic and mask manipulation in OpenCV.
+
 ### 👤 Face, Eye & Facial Features
 
 - `06_face_mesh_landmarks.py`
