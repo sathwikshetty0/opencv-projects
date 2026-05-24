@@ -790,6 +790,11 @@ Each demo below includes a rich multi-line description that explains the core in
   - Useful for learning how to combine detection, filtering, and interaction.
   - Runs standalone with minimal setup and demonstrates core CV concepts.
 
+- `91_pose_lunges_counter.py`
+  - Tracks body posture during lunges and counts completed repetitions.
+  - Uses MediaPipe Pose estimation to check knee and hip alignment.
+  - Ideal for health, posture feedback, and fitness tracking apps.
+
 ### 🛠 Utility & Generator Scripts
 
 - `generate_40_demos.py`
