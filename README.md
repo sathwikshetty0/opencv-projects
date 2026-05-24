@@ -795,6 +795,11 @@ Each demo below includes a rich multi-line description that explains the core in
   - Uses MediaPipe Pose estimation to check knee and hip alignment.
   - Ideal for health, posture feedback, and fitness tracking apps.
 
+- `92_motion_speed_heatmap.py`
+  - Renders a cumulative heatmap overlay representing cumulative motion speed.
+  - Features decay logic to fade out older motion patterns automatically.
+  - Practical demonstration of temporal frame processing and custom colormaps.
+
 ### 🛠 Utility & Generator Scripts
 
 - `generate_40_demos.py`
