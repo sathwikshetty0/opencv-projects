@@ -26,9 +26,11 @@ def main():
             results = hands.process(rgb)
             output = frame.copy()
 
-            # Draw a sample shape on canvas to erase
-            cv2.circle(canvas, (w//2, h//2), 60, (0, 0, 255), -1)
-            cv2.rectangle(canvas, (80, 80), (200, 200), (0, 255, 0), 3)
+            # Pre-draw static colorful targets to erase
+            cv2.circle(canvas, (w//2, h//2), 65, (0, 0, 255), -1)      # Red Target
+            cv2.circle(canvas, (w//2 - 150, h//2), 45, (0, 255, 0), -1) # Green Target
+            cv2.circle(canvas, (w//2 + 150, h//2), 45, (255, 0, 0), -1) # Blue Target
+            cv2.rectangle(canvas, (50, 50), (120, 120), (0, 255, 255), 5)
 
             if results.multi_hand_landmarks:
                 hand_landmarks = results.multi_hand_landmarks[0]
@@ -36,19 +38,26 @@ def main():
                 lm = hand_landmarks.landmark
                 index_pos = (int(lm[8].x * w), int(lm[8].y * h))
                 
-                # Erase by drawing a black circle on the canvas
-                cv2.circle(canvas, index_pos, 40, (0, 0, 0), -1)
-                cv2.circle(output, index_pos, 40, (0, 255, 255), 2)
+                # Erase a larger region
+                cv2.circle(canvas, index_pos, 50, (0, 0, 0), -1)
+                # Outer indicator ring
+                cv2.circle(output, index_pos, 50, (0, 255, 255), 2)
+                cv2.circle(output, index_pos, 5, (0, 0, 255), -1)
 
-            # Combine canvas and frame
+            # Blend canvas content
             gray_canvas = cv2.cvtColor(canvas, cv2.COLOR_BGR2GRAY)
             _, mask = cv2.threshold(gray_canvas, 10, 255, cv2.THRESH_BINARY)
             foreground = cv2.bitwise_and(canvas, canvas, mask=mask)
             background = cv2.bitwise_and(output, output, mask=cv2.bitwise_not(mask))
             output = cv2.add(foreground, background)
 
-            cv2.putText(output, 'Hand Virtual Eraser - Move index finger to erase shapes', (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
-            cv2.putText(output, 'Press q to quit', (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+            # Elegant HUD top bar
+            cv2.rectangle(output, (0, 0), (w, 45), (30, 30, 30), -1)
+            cv2.putText(output, 'Virtual Eraser - Move index finger tip to wipe out drawings', (15, 28), 
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.55, (0, 255, 255), 1, cv2.LINE_AA)
+            cv2.putText(output, 'Press q to quit', (w - 140, 28), 
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.55, (255, 255, 255), 1, cv2.LINE_AA)
+            
             cv2.imshow('Hand Virtual Eraser', output)
             if cv2.waitKey(1) == ord('q'):
                 break
