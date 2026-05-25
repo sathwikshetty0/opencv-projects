@@ -318,6 +318,11 @@ Each demo below includes a rich multi-line description that explains the core in
   - Integrates MediaPipe Hands with OpenCV scaling/shifting techniques.
   - Practical example of dynamic frame enhancement and user interface feedback.
 
+- `98_hand_virtual_laser_pointer.py`
+  - Simulates a red laser pointer overlay that tracks the index fingertip.
+  - Uses a decay buffer to draw fading paths and simulate laser persistence.
+  - Demonstrates queue/buffer structures and variable-thickness path rendering.
+
 ### 👤 Face, Eye & Facial Features
 
 - `06_face_mesh_landmarks.py`
