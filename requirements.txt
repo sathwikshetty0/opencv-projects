@@ -1,10 +1,11 @@
-opencv-python
-opencv-contrib-python
-mediapipe
-numpy
-cvzone
-pyautogui
-pynput
-requests
-scipy
-ultralytics
+opencv-python          # Core computer vision processing library
+opencv-contrib-python  # Extra modules for advanced image processing/stitching
+mediapipe              # Hand, face, and pose tracking solution models
+numpy                  # Array and matrix manipulation utilities
+cvzone                 # Helper functions for OpenCV overlays and styling
+pyautogui              # System input controller (volume, mouse gestures)
+pynput                 # Key listener and click event tracking
+requests               # HTTP networking requests for external files
+scipy                  # Distance computations and filter optimization
+ultralytics            # YOLOv8 object detection integration
+
