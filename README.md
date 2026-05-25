@@ -835,6 +835,11 @@ Each demo below includes a rich multi-line description that explains the core in
   - Useful for automated safety systems, surveillance alerts, and action event counters.
   - Highlights standard thresholding, pixel-count tracking, and UI event warnings.
 
+- `100_motion_background_subtractor.py`
+  - Segments foreground moving elements using OpenCV's MOG2 Background Subtractor.
+  - Generates binary motion masks and extracts isolated moving subjects.
+  - Educational example of adaptive background modeling and shadow detection.
+
 ### 🛠 Utility & Generator Scripts
 
 - `generate_40_demos.py`
