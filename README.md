@@ -820,6 +820,11 @@ Each demo below includes a rich multi-line description that explains the core in
   - Utilizes vector trigonometry on landmark coordinates.
   - Essential reference for workout posture validation and sports analytics.
 
+- `97_motion_speed_threshold_alert.py`
+  - Monitors frame delta changes and triggers a visual overlay warning if motion exceeds limits.
+  - Useful for automated safety systems, surveillance alerts, and action event counters.
+  - Highlights standard thresholding, pixel-count tracking, and UI event warnings.
+
 ### 🛠 Utility & Generator Scripts
 
 - `generate_40_demos.py`
