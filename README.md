@@ -313,6 +313,11 @@ Each demo below includes a rich multi-line description that explains the core in
   - Features real-time layer mask blending for realistic erasing behavior.
   - Perfect for understanding drawing logic and mask manipulation in OpenCV.
 
+- `95_gesture_brightness_contrast.py`
+  - Modifies webcam brightness and contrast offset using index finger coordinates.
+  - Integrates MediaPipe Hands with OpenCV scaling/shifting techniques.
+  - Practical example of dynamic frame enhancement and user interface feedback.
+
 ### 👤 Face, Eye & Facial Features
 
 - `06_face_mesh_landmarks.py`
