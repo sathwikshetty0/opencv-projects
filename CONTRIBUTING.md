@@ -31,7 +31,8 @@ The validation script checks for syntax issues and unsafe file names.
 ## File naming
 
 Use snake_case for Python demo filenames and avoid spaces. This keeps scripts easy to run from the command line.
+All main sequential demo files should be prefixed with a 2-digit or 3-digit zero-padded index (e.g., `01_pose_detector_game.py` up to `100_motion_background_subtractor.py`) to preserve ordering within the collection.
 
 ## Documentation
 
-Update `README.md` whenever you add or rename demos.
+Update `README.md` whenever you add or rename demos. Make sure to place new demos in their corresponding category section.
