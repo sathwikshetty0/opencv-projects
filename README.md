@@ -432,6 +432,11 @@ Each demo below includes a rich multi-line description that explains the core in
   - Uses MediaPipe Face Mesh for fine landmark identification.
   - Supports measuring dynamic brow elevation to recognize expressions.
 
+- `94_face_tint_overlay.py`
+  - Overlays a dynamic, semi-transparent color tint depending on face position.
+  - Calculates nose coordinate offsets to shift color channels in real time.
+  - Interactive demonstration of color space mapping and alpha-blending.
+
 ### 🖼️ Image Processing, Filters & Visual Effects
 
 - `03_document_scanner.py`
