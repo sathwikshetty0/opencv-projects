@@ -447,6 +447,11 @@ Each demo below includes a rich multi-line description that explains the core in
   - Calculates nose coordinate offsets to shift color channels in real time.
   - Interactive demonstration of color space mapping and alpha-blending.
 
+- `99_face_eye_blink_counter.py`
+  - Monitors the Eye Aspect Ratio (EAR) using Face Mesh landmarks to count blinks.
+  - Highlights precise geometric landmark analysis and biometric thresholding.
+  - Practical utility for driver distraction or user attention tracker prototypes.
+
 ### 🖼️ Image Processing, Filters & Visual Effects
 
 - `03_document_scanner.py`
