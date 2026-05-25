@@ -815,6 +815,11 @@ Each demo below includes a rich multi-line description that explains the core in
   - Features decay logic to fade out older motion patterns automatically.
   - Practical demonstration of temporal frame processing and custom colormaps.
 
+- `96_pose_arm_angle_calculator.py`
+  - Evaluates joint angles between shoulder, elbow, and wrist in real time.
+  - Utilizes vector trigonometry on landmark coordinates.
+  - Essential reference for workout posture validation and sports analytics.
+
 ### 🛠 Utility & Generator Scripts
 
 - `generate_40_demos.py`
