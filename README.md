@@ -1,6 +1,6 @@
 # 🚀 OpenCV & MediaPipe Computer Vision Demo Collection
 
-A complete interactive repository of **80+ computer vision demos** built with Python, OpenCV, MediaPipe, and related tools.
+A complete interactive repository of **100+ computer vision demos** built with Python, OpenCV, MediaPipe, and related tools.
 
 These projects are designed for learning, experimentation, and rapid prototyping. Every script is self-contained and runs directly with webcam input or video capture.
 
